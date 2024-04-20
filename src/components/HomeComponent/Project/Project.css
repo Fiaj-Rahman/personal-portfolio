@@ -1,0 +1,35 @@
+.skill{
+    display: flex;
+    justify-content: space-around;
+}
+
+.frontEnd{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 900px)
+{
+    .skill{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frontEnd{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+}
