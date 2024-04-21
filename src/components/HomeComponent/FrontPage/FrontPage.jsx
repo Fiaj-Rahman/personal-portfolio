@@ -88,7 +88,7 @@ const FrontPage = () => {
 import { FaLocationDot } from "react-icons/fa6";
 import { FaMobileRetro } from "react-icons/fa6"; */}
 
-        <div className="card w-96 bg-base-100 shadow-xl m-auto">
+        <div className="card w-full bg-base-100 shadow-xl m-auto">
   <figure className="px-10 pt-10">
     <img src="./logo.png" alt="Shoes" className="rounded-xl w-20" />
   </figure>

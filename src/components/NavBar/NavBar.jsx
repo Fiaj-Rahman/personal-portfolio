@@ -157,7 +157,7 @@ const NavBar = () => {
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium "
+            className="mr-4 ml-3 cursor-pointer py-1.5 font-medium "
           >
             <span className="text-[#68e329] font-bold">F</span>
             <span className="text-[#A020F0] font-bold">R</span>
