@@ -68,6 +68,21 @@ const BackEnd = () => {
 
 
 
+
+                <div className="card w-full bg-base-100 shadow-xl  my-5 h-96" data-aos="zoom-in-down"  data-aos-delay="350"  data-aos-duration="1500">
+  <figure className="px-10 pt-10">
+    <img src="./firebase.png" alt="html" className="rounded-xl" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">FIREBASE</h2>
+    <p><div className="radial-progress text-black font-bold " style={{"--value":80}} role="progressbar">80%</div></p>
+    
+  </div>
+                </div>
+
+
+
+
                 
             </div>
 

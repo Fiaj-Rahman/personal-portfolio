@@ -20,10 +20,13 @@ const Skill = () => {
         floated={false}
         shadow={false}
         color="transparent"
-        className="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('./frontEnd.jpg')] bg-cover bg-center"
+        className="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('./html.png')] bg-cover bg-center"
       >
         <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
       </CardHeader>
+
+
+
       <CardBody className="relative py-14 px-6 md:px-12">
         <Typography
           variant="h1"
@@ -60,7 +63,7 @@ const Skill = () => {
         floated={false}
         shadow={false}
         color="transparent"
-        className="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('./backEnd.jpg')] bg-cover bg-center my-10"
+        className="absolute inset-0 m-0 h-full w-full rounded-none rounded-xl bg-orange-500 bg-cover bg-center my-10"
       >
         <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
       </CardHeader>
