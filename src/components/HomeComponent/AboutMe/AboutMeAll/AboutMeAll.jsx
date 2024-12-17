@@ -6,6 +6,7 @@ import Skill from '../Skill/Skill';
 import SkillTitle from '../Skill/SkillTitle';
 import Certificate from '../../Certificate/Certificate';
 import Project from '../../Project/Project';
+import Contact from '../../../Contact/Contact';
 
 
 
@@ -19,7 +20,7 @@ const AboutMeAll = () => {
             <Skill></Skill>
             <Certificate></Certificate>
             <Project></Project>
-            
+            <Contact></Contact>
         </div>
     );
 };

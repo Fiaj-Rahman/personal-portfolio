@@ -60,12 +60,6 @@ const NavBar = () => {
         </a>
       </Typography>
     
-    
-    
-    
-    
-    
-    
     </Link>
     
 
